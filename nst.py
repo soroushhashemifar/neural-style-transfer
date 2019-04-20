@@ -1,7 +1,7 @@
 import numpy as np
 import keras.backend as K
 from scipy.misc import imsave, imresize
-from scipy.optimize import fmin_l_bfgs_b, fmin_tnc, fmin_cobyla, fmin_slsqp
+from scipy.optimize import fmin_l_bfgs_b
 from keras.applications import vgg19
 from keras.preprocessing.image import load_img, img_to_array
 import time
